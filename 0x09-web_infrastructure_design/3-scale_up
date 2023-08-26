@@ -5,6 +5,7 @@ The Additional Element:
 2- add 1 more load-balancer
 
 --Adding new server enabled to seperate each element in server
-(web server; Nginx, Application server; code base and Database; MySQL) in their own server and each server is being secured with the firewall
+(web server; Nginx, Application server; code base and Database; MySQL) in their own server and each server is being secured
+with the firewall
 
 -- adding new load-balancer will helpin  handling more traffic across the whole infrastructure.
