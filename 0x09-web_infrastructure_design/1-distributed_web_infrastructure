@@ -1,0 +1,21 @@
+Explantion for more additional element:
+
+1-Adding more servers?
+we add new server bec, when traffic starts to grow  One web server won't be able to handle all these corresponding requests, so we add one more server so that we can be able to add a load balancer
+
+2-What distribution algorithm your load balancer is configured with and how it works?
+HAproxy configured with (Round robin) algorithm, Round robin is the default algorithm and distributes requests to backend servers in a circular fashion. This is a simple and efficient algorithm, but it does not take into account the health or load of the servers.
+
+3-Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both?
+HAproxy load-balancer enable Active-Passive setup,The main difference between active-active and active-passive load balancers is that in an active-active configuration, all nodes are actively serving traffic, while in an active-passive configuration, only one node is actively serving traffic and the other nodes are in standby mode.
+--In an active-active configuration, the load balancer distributes traffic evenly across all the active nodes. This means that all the nodes are utilized, which can improve performance.
+--In an active-passive configuration, the load balancer only routes traffic to the active node. This means that if the active node fails, there will be no traffic until the passive node is promoted to become the active node. 
+
+4-How a database Primary-Replica (Master-Slave) cluster works?
+The master-slave is a database architecture divided into a master database and slave databases. The slave database serves as the backup for the master database. The master database is used for the write operations, while read operations may be spread on multiple slave databases.
+
+5-What is the difference between the Primary node and the Replica node in regard to the application?
+a primary node is the one that accepts writes, while the replica nodes can only process read-only transactions. 
+--The primary node is the only node that can accept writes. 
+--The replica nodes can only process read-only transactions.
+
