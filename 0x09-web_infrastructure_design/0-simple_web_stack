@@ -7,7 +7,7 @@ In computing, a server is a piece of computer hardware or software (computer pro
 Domain names serve to identify Internet resources, such as computers, networks, and services, with a text-based label that is easier to memorize than the numerical addresses used in the Internet protocols. A domain name may represent entire collections of such resources or individual instances.
 
 3-What type of DNS record www is in www.foobar.com?
-CNAME
+Arecord
 
 4-What is the role of the web server?
 The primary role of a web server is to store, process, and deliver requested information or webpages to end users. It uses: Physical Storage: All website data is stored on a physical web server to ensure its safety.
