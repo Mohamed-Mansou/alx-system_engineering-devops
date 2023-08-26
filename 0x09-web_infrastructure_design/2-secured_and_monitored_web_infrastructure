@@ -7,24 +7,28 @@ The Additional Element:
 
 =========
 1-What are firewalls for?
---Firewalls are network security devices that monitor and control incoming and outgoing network traffic based on a set of predetermined security rules. A firewall typically establishes a barrier between a trusted network and an untrusted network, such as the Internet.
+--Firewalls are network security devices that monitor and control incoming and outgoing network traffic based on a set
+of predetermined security rules. A firewall typically establishes a barrier between a trusted network and an untrusted network,
+such as the Internet.
 Firewalls are used to protect networks from a variety of threats, including:
 --Viruses and malware: Firewalls can block viruses, malware, and other malicious software from entering the network.
 --Hacking: Firewalls can prevent hackers from gaining unauthorized access to the network.
 --Spam: Firewalls can block spam emails from entering the network.
---DDoS attacks: Firewalls can help protect against distributed denial-of-service (DDoS) attacks, which are attacks that attempt to overwhelm a network with traffic.
+--DDoS attacks: Firewalls can help protect against distributed denial-of-service (DDoS) attacks,
+  which are attacks that attempt to overwhelm a network with traffic.
 --Data leaks: Firewalls can help prevent data leaks by blocking unauthorized access to sensitive data
 =========
 2-Why is the traffic served over HTTPS?
 Traffic is served over HTTPS for a number of reasons, including:
---Security: HTTPS encrypts the traffic between the client and server, which helps to protect it from being --intercepted by third parties. This is important for sensitive data, such as credit card numbers and passwords.
+--Security: HTTPS encrypts the traffic between the client and server, which helps to protect it from being intercepted by
+third parties. This is important for sensitive data, such as credit card numbers and passwords.
 --Authentication: HTTPS allows the client to verify the identity of the server, which helps to prevent man-in-the-middle attacks.
 --Integrity: HTTPS helps to ensure that the data has not been tampered with in transit.
-Performance: The performance overhead of HTTPS is relatively small, and it is often negligible for most users.
+--Performance: The performance overhead of HTTPS is relatively small, and it is often negligible for most users.
 =========
 3-What monitoring is used for?
-Monitoring is used to track the performance of a system or service, identify any problems, and take corrective action as needed. It can be used for a variety of purposes, including:
-
+Monitoring is used to track the performance of a system or service, identify any problems, and take corrective action as needed.
+It can be used for a variety of purposes, including:
 --Preventing downtime: By monitoring systems and services, you can identify and fix problems before they cause outages.
 =========
 4-How the monitoring tool is collecting data?
@@ -32,4 +36,6 @@ Monitoring is used to track the performance of a system or service, identify any
 =========
 5-Explain what to do if you want to monitor your web server QPS?
 --monitor it from the network and application level.
-Configure the monitoring tool, Once you have chosen a monitoring tool, you need to configure it to collect the metrics that you want to monitor. For QPS, you will need to configure the monitoring tool to collect the number of requests that the web server receives per second.
+Configure the monitoring tool, Once you have chosen a monitoring tool, you need to configure it to collect the metrics
+that you want to monitor. For QPS, you will need to configure the monitoring tool to collect the number of requests that
+the web server receives per second.
