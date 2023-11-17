@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # change config file
 Host web-01
-	Hostname 52.87.220.218
+	Hostname 54.152.235.135
 	User ubuntu
 	PasswordAuthentication no
 	IdentityFile ~/.ssh/school
